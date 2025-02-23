@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Hellen Jin">
+<meta name="dcterms.date" content="2024-02-04">
 <meta name="description" content="A blog about the experiments I will be doing with the LLM to see if they can undertsand idioms like humans do">
 
 <title>Testing LLMs: Can They Really Understand Idioms? – Hellen and LLMs</title>
@@ -175,7 +176,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2/4/2024</p>
+        <p class="date">February 4, 2024</p>
       </div>
     </div>
     
@@ -194,63 +195,64 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div id="c86e6d93-9f9f-4fbc-a559-c0d4f251cb5b" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<div class="ansi-escaped-output">
-<pre><span class="ansi-cyan-fg">  Cell </span><span class="ansi-green-fg">In[1], line 1</span>
-<span class="ansi-red-fg">    ---</span>
-       ^
-<span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> invalid syntax
-</pre>
-</div>
-</div>
-</div>
-<div id="9b41c501-0e76-4b75-8111-3e3cb9d2fb41" class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">**</span>Title: Testing LLMs: Can They Really Understand Idioms?<span class="op">**</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">**</span>Introduction<span class="op">**</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>Large Language Models (LLMs) have advanced rapidly, demonstrating impressive capabilities <span class="kw">in</span> language generation, text summarization, <span class="kw">and</span> creative writing. However, one area where they still face challenges <span class="kw">is</span> <span class="kw">in</span> understanding <span class="kw">and</span> using idioms effectively. In this post, we will analyze how LLMs interpret idiomatic expressions, whether they recognize them <span class="kw">in</span> different contexts, <span class="kw">and</span> how well they use idioms <span class="kw">in</span> responses.</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="op">**</span>Experiment: Prompting the LLM <span class="cf">with</span> Idioms<span class="op">**</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>To evaluate an LLM’s ability to handle idioms, I tested it using three different types of prompts:</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fl">1.</span> <span class="op">**</span>Literal vs. Figurative Meaning<span class="op">**</span> – Asking the model to define idioms <span class="kw">and</span> then use them <span class="kw">in</span> a sentence.</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fl">2.</span> <span class="op">**</span>Contextual Understanding<span class="op">**</span> – Providing sentences <span class="cf">with</span> idioms <span class="kw">and</span> asking the model to interpret their meanings.</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fl">3.</span> <span class="op">**</span>Creative Application<span class="op">**</span> – Asking the model to generate short stories <span class="kw">or</span> dialogues incorporating idioms naturally.</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="op">**</span>Results <span class="op">&amp;</span> Observations<span class="op">**</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fl">1.</span> <span class="op">**</span>Literal vs. Figurative Meaning:<span class="op">**</span> The LLM performed well <span class="kw">in</span> defining common idioms like <span class="op">*</span>“kick the bucket”<span class="op">*</span> <span class="kw">and</span> <span class="op">*</span>“burn the midnight oil”<span class="op">*</span>. However, it occasionally struggled <span class="cf">with</span> less common idioms, providing overly literal definitions.</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>   <span class="op">-</span> Example:</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>     <span class="op">-</span> <span class="op">**</span>Prompt:<span class="op">**</span> “What does ‘spill the beans’ mean?”</span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>     <span class="op">-</span> <span class="op">**</span>Response:<span class="op">**</span> “It means to reveal a secret.” ✅</span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>     <span class="op">-</span> <span class="op">**</span>Prompt:<span class="op">**</span> “What does ‘barking up the wrong tree’ mean?”</span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>     <span class="op">-</span> <span class="op">**</span>Response:<span class="op">**</span> “It means to misunderstand a situation <span class="kw">and</span> pursue the wrong course of action.” ✅</span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="fl">2.</span> <span class="op">**</span>Contextual Understanding:<span class="op">**</span> When idioms were embedded <span class="kw">in</span> sentences, the LLM usually understood their meaning correctly. However, <span class="kw">in</span> cases where the idiom had multiple possible interpretations, the model sometimes provided a contextually incorrect answer.</span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>   <span class="op">-</span> Example:</span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>     <span class="op">-</span> <span class="op">**</span>Sentence:<span class="op">**</span> “John thought he could get a promotion by befriending the CEO, but he was barking up the wrong tree.”</span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>     <span class="op">-</span> <span class="op">**</span>LLM’s interpretation:<span class="op">**</span> “John made a mistake <span class="kw">in</span> trying to befriend the CEO <span class="cf">for</span> a promotion.” ✅</span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>     <span class="op">-</span> <span class="op">**</span>Sentence:<span class="op">**</span> “After the argument, Lisa broke the ice <span class="cf">with</span> a joke.”</span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>     <span class="op">-</span> <span class="op">**</span>LLM’s interpretation:<span class="op">**</span> “Lisa shattered something made of ice.” ❌ (Misinterpretation)</span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="fl">3.</span> <span class="op">**</span>Creative Application:<span class="op">**</span> When asked to generate a story using idioms naturally, the LLM inserted them but sometimes <span class="kw">in</span> an awkward <span class="kw">or</span> forced way. This suggests that <span class="cf">while</span> the model understands idioms, it may struggle <span class="cf">with</span> their nuanced use <span class="kw">in</span> organic conversation.</span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>   <span class="op">-</span> Example:</span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>     <span class="op">-</span> <span class="op">**</span>Prompt:<span class="op">**</span> “Write a short story where a detective uses idioms <span class="cf">while</span> solving a case.”</span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>     <span class="op">-</span> <span class="op">**</span>Excerpt:<span class="op">**</span> <span class="op">*</span>“Detective Hardy knew time was of the essence. ‘We have to catch the suspect red<span class="op">-</span>handed<span class="op">!</span>’ he said. But his partner was beating around the bush, hesitant to investigate the crime scene. Hardy sighed. ‘Come on, let’s cut to the chase.’”<span class="op">*</span></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>     <span class="op">-</span> Verdict: Acceptable but a bit cliché <span class="kw">in</span> its use of idioms.</span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="op">**</span>Conclusion<span class="op">**</span></span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>While LLMs have a strong grasp of idiomatic meanings <span class="kw">and</span> can recognize idioms <span class="kw">in</span> most contexts, their application of idioms <span class="kw">in</span> generated text can sometimes feel unnatural. They excel at defining <span class="kw">and</span> interpreting idioms but occasionally falter <span class="kw">in</span> using them fluidly <span class="kw">in</span> storytelling <span class="kw">and</span> casual dialogue. Future improvements <span class="kw">in</span> contextual learning <span class="kw">and</span> training on conversational nuances may <span class="bu">help</span> bridge this gap, making AI<span class="op">-</span>generated language even more human<span class="op">-</span>like.</span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="op">**</span>What’s Next?<span class="op">**</span></span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>In future posts, I’ll explore whether LLMs can detect sarcasm <span class="kw">and</span> humor effectively, <span class="kw">and</span> how well they can generate culturally specific phrases. Stay tuned<span class="op">!</span></span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="a-visualization-problem-for-llms" class="level2">
+<h2 class="anchored" data-anchor-id="a-visualization-problem-for-llms">A visualization problem for LLMs</h2>
+<ul>
+<li>Read the following and see if you can answer the question:</li>
+</ul>
+<blockquote class="blockquote">
+<p>There are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?</p>
+</blockquote>
+</section>
+<section id="testing-llms-can-they-really-understand-idiom" class="level2">
+<h2 class="anchored" data-anchor-id="testing-llms-can-they-really-understand-idiom">Testing LLMs: Can They Really Understand Idiom?</h2>
+<ul>
+<li>Introduction:</li>
+</ul>
+<blockquote class="blockquote">
+<p>Large Language Models (LLMs) have advanced rapidly, demonstrating impressive capabilities in language generation, text summarization, and creative writing. However, one area where they still face challenges is in understanding and using idioms effectively. In this post, we will analyze how LLMs interpret idiomatic expressions, whether they recognize them in different contexts, and how well they use idioms in responses.</p>
+</blockquote>
+<ul>
+<li><p>Experiment: Prompting the LLM with Idioms &gt; To evaluate an LLM’s ability to handle idioms, I tested it using three different types of prompts: &gt;1. Literal vs.&nbsp;Figurative Meaning – Asking the model to define idioms and then use them in a sentence. &gt;2. Contextual Understanding – Providing sentences with idioms and asking the model to interpret their meanings. &gt;3. Creative Application – Asking the model to generate short stories or dialogues incorporating idioms naturally.</p></li>
+<li><p>Results &amp; Observations &gt;1. Literal vs.&nbsp;Figurative Meaning: The LLM performed well in defining common idioms like <em>“kick the bucket”</em> and <em>“burn the midnight oil”</em>. However, it occasionally struggled with less common idioms, providing overly literal definitions. &gt;- Example:</p>
+<ul>
+<li><strong>Prompt:</strong> “What does ‘spill the beans’ mean?”</li>
+<li><strong>Response:</strong> “It means to reveal a secret.” ✅</li>
+<li><strong>Prompt:</strong> “What does ‘barking up the wrong tree’ mean?”</li>
+<li><strong>Response:</strong> “It means to misunderstand a situation and pursue the wrong course of action.” ✅</li>
+</ul></li>
+</ul>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li><strong>Contextual Understanding:</strong> When idioms were embedded in sentences, the LLM usually understood their meaning correctly. However, in cases where the idiom had multiple possible interpretations, the model sometimes provided a contextually incorrect answer.</li>
+</ol>
+<ul>
+<li>Example:</li>
+<li><strong>Sentence:</strong> “John thought he could get a promotion by befriending the CEO, but he was barking up the wrong tree.”</li>
+<li><strong>LLM’s interpretation:</strong> “John made a mistake in trying to befriend the CEO for a promotion.” ✅</li>
+<li><strong>Sentence:</strong> “After the argument, Lisa broke the ice with a joke.”</li>
+<li><strong>LLM’s interpretation:</strong> “Lisa shattered something made of ice.” ❌ (Misinterpretation)</li>
+</ul>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="3" type="1">
+<li><strong>Creative Application:</strong> When asked to generate a story using idioms naturally, the LLM inserted them but sometimes in an awkward or forced way. This suggests that while the model understands idioms, it may struggle with their nuanced use in organic conversation.</li>
+</ol>
+<ul>
+<li>Example:</li>
+<li><strong>Prompt:</strong> “Write a short story where a detective uses idioms while solving a case.”</li>
+<li><strong>Excerpt:</strong> <em>“Detective Hardy knew time was of the essence. ‘We have to catch the suspect red-handed!’ he said. But his partner was beating around the bush, hesitant to investigate the crime scene. Hardy sighed. ‘Come on, let’s cut to the chase.’”</em></li>
+<li>Verdict: Acceptable but a bit cliché in its use of idioms.</li>
+</ul>
+</blockquote>
+<p>*Conclusion &gt;While LLMs have a strong grasp of idiomatic meanings and can recognize idioms in most contexts, their application of idioms in generated text can sometimes feel unnatural. They excel at defining and interpreting idioms but occasionally falter in using them fluidly in storytelling and casual dialogue. Future improvements in contextual learning and training on conversational nuances may help bridge this gap, making AI-generated language even more human-like.</p>
+<p>*What’s Next? &gt;In future posts, I’ll explore whether LLMs can detect sarcasm and humor effectively, and how well they can generate culturally specific phrases. Stay tuned!</p>
 <div id="542d1405-ee3f-41fa-a912-767e5d7c2eff" class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>hiii</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>hiii</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
