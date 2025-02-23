@@ -32,14 +32,7 @@
     "href": "posts/001_First_Post /index.html",
     "title": "Testing LLMs: Can They Really Understand Idioms?",
     "section": "",
-    "text": "Read the following and see if you can answer the question:\n\n\nThere are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?"
-  },
-  {
-    "objectID": "posts/001_First_Post /index.html#a-visualization-problem-for-llms",
-    "href": "posts/001_First_Post /index.html#a-visualization-problem-for-llms",
-    "title": "Testing LLMs: Can They Really Understand Idioms?",
-    "section": "",
-    "text": "Read the following and see if you can answer the question:\n\n\nThere are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?"
+    "text": "&lt;img src=\"idiom.png\" width=\"50%\"/&gt;"
   },
   {
     "objectID": "posts/001_First_Post /index.html#testing-llms-can-they-really-understand-idiom",
