@@ -9,19 +9,18 @@ format:
 # 👋 Hi, I’m Hellen
 
 <div class="highlight">
-This blog is where I test how well language models like GPT4 can imitate, support, and sometimes surprise us. Every few days, I ask a new question — from "Can it act like a gym buddy?" to "Does it understand horoscopes?" — and post the results here.
+This blog is where I test how well language models like GPT4 can imitate, support, and sometimes surprise us. Every few days, I ask a new question, from "Can it act like a gym buddy?" to "Does it understand horoscopes?" — and post the results here.
 </div>
 
 ## What You’ll Find Here
 
-🧠 Honest tests of AI behavior  
-📅 Posts every two days (give or take)  
-🎯 Real prompts, short results, zero fluff  
+🧠 Honest tests of AI behavior   
+🎯 Real prompts, short results 
 🌐 Topics like politics, astrology, mental health, playlists, and gym routines
 
 ## Why I’m Doing This
 
-LLMs are changing how we search, write, and think. I wanted to explore what they’re actually capable of — not just in theory, but in practice. No hype. Just hands-on experiments.
+LLMs are changing how we search, write, and think. I wanted to explore what they’re actually capable of, not just in theory, but in practice. No hype. Just hands-on experiments.
 
 ## Want to Connect?
 
