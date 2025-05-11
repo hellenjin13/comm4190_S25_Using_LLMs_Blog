@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Hellen Jin">
-<meta name="dcterms.date" content="2024-02-04">
-<meta name="description" content="A blog that is of continuation of the first one, but this time with Sarcasm!!">
+<meta name="dcterms.date" content="2025-02-04">
+<meta name="description" content="A blog exploring whether LLMs can create jokes that are both funny and appropriate depending on the situation and audience.">
 
-<title>Testing LLMs: Can They Really Recognize and Generate Sarcasm? – Hellen and LLMs</title>
+<title>Testing LLMs: Can They Write Appropriate and Funny Jokes? – Hellen and LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,16 +117,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Testing LLMs: Can They Really Recognize and Generate Sarcasm?</h1>
+      <h1 class="title">Testing LLMs: Can They Write Appropriate and Funny Jokes?</h1>
                   <div>
         <div class="description">
-          A blog that is of continuation of the first one, but this time with Sarcasm!!
+          A blog exploring whether LLMs can create jokes that are both funny and appropriate depending on the situation and audience.
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">LLMs</div>
-                <div class="quarto-category">Figurative Language</div>
-                <div class="quarto-category">Human Interactions</div>
+                <div class="quarto-category">Humor</div>
+                <div class="quarto-category">Communication</div>
               </div>
                   </div>
   </div>
@@ -144,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 4, 2024</p>
+        <p class="date">February 4, 2025</p>
       </div>
     </div>
     
@@ -164,58 +164,49 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="sarcasm01.png" width="50%"></p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Humor is tricky. What’s funny to one person might be awkward or offensive to another. Writing a good joke means knowing your audience, reading the room, and understanding timing. I wanted to see how well LLMs like GPT-4 could tell jokes that are both appropriate and actually funny. Could it make someone laugh without crossing a line?</p>
+</section>
+<section id="experiment-prompting-for-jokes" class="level2">
+<h2 class="anchored" data-anchor-id="experiment-prompting-for-jokes">Experiment: Prompting for Jokes</h2>
+<p>I tested the model with three kinds of prompts:</p>
 <ul>
-<li><p>Introduction: &gt;Understanding sarcasm is one of the toughest challenges in language comprehension—even for humans. It relies on tone, context, and sometimes a shared sense of humor. So, if even people struggle to detect it sometimes, how well can Large Language Models (LLMs) pick up on sarcasm?I decided to put an LLM to the test, examining its ability to detect, interpret, and even generate sarcasm.</p></li>
-<li><p>To see how well an LLM handles sarcasm, I ran three different experiments:</p>
-<ol type="1">
-<li>Sarcasm Detection – Can the model recognize when a statement is sarcastic?</li>
-<li>Contextual Understanding – Does it correctly interpret sarcasm when given ambiguous sentences?</li>
-<li>Sarcasm Generation – Can it create sarcastic responses that sound human-like?</li>
-</ol>
-<ul>
-<li>Results &amp; Observations</li>
-</ul></li>
+<li>“Tell me a joke a kid would laugh at.”</li>
+<li>“Tell me a clever joke that’s safe for work.”</li>
+<li>“Tell me a joke for a college student that isn’t cringey.”</li>
 </ul>
-<ol type="1">
-<li>Sarcasm Detection: Hit or Miss When asked directly whether a sentence was sarcastic, the LLM did okay—but not perfectly.</li>
-</ol>
-<blockquote class="blockquote">
-<p>✅ Success Example:</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Prompt: “Is this sarcastic? ‘Oh great, another Monday. Just what I needed.’” Response: “Yes, this statement is sarcastic as it expresses dissatisfaction rather than genuine excitement.” This was a solid response! The model correctly identified sarcasm.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>❌ Failure Example:</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Prompt: “Wow, I love standing in long lines at the DMV.” Response: “This statement expresses enthusiasm for waiting in line.” Not quite. The model took the sentence at face value and missed the sarcasm entirely.</p>
-</blockquote>
-<blockquote class="blockquote">
-<ol start="2" type="1">
-<li>Contextual Understanding: The Struggle is Real Things got trickier when sarcasm was more subtle or lacked context.</li>
-</ol>
-</blockquote>
-<blockquote class="blockquote">
-<p>❌ Example of Misinterpretation:</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Sentence: “Oh sure, I just LOVE getting stuck in traffic for hours.” LLM’s interpretation: “This sentence expresses enjoyment of traffic.” Yikes. Without any surrounding context, the model assumed the speaker genuinely enjoys traffic.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>✅ Improved with Context:</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Prompt: “In a discussion about daily frustrations, a person says: ‘Oh sure, I just LOVE getting stuck in traffic for hours.’ Is this sarcastic?” Response: “Yes, this is sarcasm, as the speaker is likely frustrated rather than genuinely pleased.” When given additional context, the model performed much better. So, while it can detect sarcasm, it often needs a little extra help.</p>
-</blockquote>
-<pre><code>&gt;3. **Sarcasm Generation:** When asked to generate sarcastic responses, the LLM could produce them but often in a straightforward way, lacking human-like wit.
-&gt;   - Example:
-&gt;     - **Prompt:** "Respond sarcastically to 'I just failed my exam.'"
-&gt;     - **Response:** "Oh wow, you must be so proud of yourself!" ✅ (Acceptable but generic sarcasm)
-&gt;     - **Prompt:** "Generate a sarcastic response to 'I locked myself out of my house.'"
-&gt;     - **Response:** "Oh, what a brilliant way to start the day!" ✅ (Appropriate but lacks uniqueness)</code></pre>
+</section>
+<section id="prompt-1-tell-me-a-joke-a-kid-would-laugh-at." class="level2">
+<h2 class="anchored" data-anchor-id="prompt-1-tell-me-a-joke-a-kid-would-laugh-at.">Prompt 1: “Tell me a joke a kid would laugh at.”</h2>
+<p><strong>Response:</strong><br>
+“What did one wall say to the other wall?<br>
+I’ll meet you at the corner.”</p>
+<p><strong>Analysis:</strong><br>
+This joke is simple, harmless, and plays with basic word logic. It’s the kind of thing you’d hear on a popsicle stick, which is probably the right level for kids. It didn’t try to be edgy or ironic, which was good.</p>
+</section>
+<section id="prompt-2-tell-me-a-clever-joke-thats-safe-for-work." class="level2">
+<h2 class="anchored" data-anchor-id="prompt-2-tell-me-a-clever-joke-thats-safe-for-work.">Prompt 2: “Tell me a clever joke that’s safe for work.”</h2>
+<p><strong>Response:</strong><br>
+“Why don’t scientists trust atoms?<br>
+Because they make up everything.”</p>
+<p><strong>Analysis:</strong><br>
+This is a classic science pun, but it still works. It’s safe, clean, and shows a little cleverness. It’s also short, which helps with delivery. While not original, the model’s choice was on target for a workplace context.</p>
+</section>
+<section id="prompt-3-tell-me-a-joke-for-a-college-student-that-isnt-cringey." class="level2">
+<h2 class="anchored" data-anchor-id="prompt-3-tell-me-a-joke-for-a-college-student-that-isnt-cringey.">Prompt 3: “Tell me a joke for a college student that isn’t cringey.”</h2>
+<p><strong>Response:</strong><br>
+“Why did the student eat their homework?<br>
+Because the professor said it was a piece of cake.”</p>
+<p><strong>Analysis:</strong><br>
+It leans a little corny, but it still relates to student life. It didn’t try too hard to sound young or internet-y, which helped it avoid sounding forced. If anything, it felt more like something you’d hear in a student newspaper than on TikTok.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>GPT-4 can write safe, audience-specific jokes — as long as you’re clear in your prompt. It knows what kind of humor fits each setting, and it avoids anything offensive. That said, it tends to lean on familiar material. The jokes are rarely original, but they’re rarely inappropriate either. So if you’re looking for light laughs that won’t get you in trouble, an LLM can deliver. Just don’t expect stand-up level comedy… yet.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

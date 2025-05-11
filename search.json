@@ -4,14 +4,56 @@
     "href": "index.html",
     "title": "My Explorations with LLMs",
     "section": "",
-    "text": "Testing LLMs: Can They Recommend the Best Place to Shop?\n\n\n\nLLMs\n\nTravel\n\nShopping\n\n\n\nA blog exploring whether LLMs can understand personal shopping needs and recommend the best places to go — from luxury malls to hidden local gems.\n\n\n\n\n\nMar 3, 2024\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nTesting LLMs: Can LLMs Handle Ethical Dilemmas?\n\n\n\nLLMs\n\nOpinions?\n\nEthics\n\n\n\nA blog about the experiments I will be doing with the LLM to see how do they deal with ethical dilemmas?\n\n\n\n\n\nFeb 19, 2024\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nTesting LLMs: Can LLMs Adapt to Different Writing Styles?\n\n\n\nLLMs\n\nFigurative Language\n\nCreativity\n\n\n\nA blog about the experiments I will be doing with the LLM to see if they can customize their writing styles\n\n\n\n\n\nFeb 16, 2024\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nTesting LLMs: Do LLMs Understand Subtle Humor?\n\n\n\nLLMs\n\nFigurative Language\n\nHuman interactions\n\n\n\nA blog about the experiments I will be doing with the LLM to see if they can undertsand subtle humor like humans do\n\n\n\n\n\nFeb 13, 2024\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nTesting LLMs: Can They Plan the Perfect Vacation?\n\n\n\nLLMs\n\nTravel\n\nPersonalization\n\n\n\nA blog testing whether LLMs like GPT-4 can recommend personalized, meaningful vacation ideas based on vague or emotional prompts.\n\n\n\n\n\nFeb 4, 2024\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nTesting LLMs: Can They Really Recognize and Generate Sarcasm?\n\n\n\nLLMs\n\nFigurative Language\n\nHuman Interactions\n\n\n\nA blog that is of continuation of the first one, but this time with Sarcasm!!\n\n\n\n\n\nFeb 4, 2024\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\nNo matching items"
+    "text": "Testing LLMs: Can They Understand Emojis?\n\n\n\nLLMs\n\nCommunication\n\nLanguage\n\n\n\nA blog exploring whether LLMs can interpret and respond to emojis the way humans do.\n\n\n\n\n\nFeb 13, 2025\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nTesting LLMs: Can They Plan the Perfect Vacation?\n\n\n\nLLMs\n\nTravel\n\nPersonalization\n\n\n\nA blog testing whether LLMs like GPT-4 can recommend personalized, meaningful vacation ideas based on vague or emotional prompts.\n\n\n\n\n\nFeb 4, 2025\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nTesting LLMs: Can They Write Appropriate and Funny Jokes?\n\n\n\nLLMs\n\nHumor\n\nCommunication\n\n\n\nA blog exploring whether LLMs can create jokes that are both funny and appropriate depending on the situation and audience.\n\n\n\n\n\nFeb 4, 2025\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nTesting LLMs: Can They Recommend the Best Place to Shop?\n\n\n\nLLMs\n\nTravel\n\nShopping\n\n\n\nA blog exploring whether LLMs can understand personal shopping needs and recommend the best places to go — from luxury malls to hidden local gems.\n\n\n\n\n\nMar 3, 2024\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nTesting LLMs: Can LLMs Handle Ethical Dilemmas?\n\n\n\nLLMs\n\nOpinions?\n\nEthics\n\n\n\nA blog about the experiments I will be doing with the LLM to see how do they deal with ethical dilemmas?\n\n\n\n\n\nFeb 19, 2024\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nTesting LLMs: Can LLMs Adapt to Different Writing Styles?\n\n\n\nLLMs\n\nFigurative Language\n\nCreativity\n\n\n\nA blog about the experiments I will be doing with the LLM to see if they can customize their writing styles\n\n\n\n\n\nFeb 16, 2024\n\n\nHellen Jin\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/004_Fourth_Post/index04.html",
-    "href": "posts/004_Fourth_Post/index04.html",
-    "title": "Testing LLMs: Do LLMs Understand Subtle Humor?",
-    "section": "",
-    "text": "Introduction\n\nHumor is one of the most complex aspects of human communication. It relies on cultural context, tone, wordplay, and sometimes even shared experiences. So how well do Large Language Models (LLMs) grasp humor? Can they recognize jokes, understand sarcasm, and even generate witty responses? This post explores how LLMs perform when faced with humor in different contexts.\n\n\n\nExperiment: Putting LLMs to the Test\n\nTo analyze how well an LLM handles humor, I used three different approaches:\n\n\nJoke Interpretation: The model was given classic jokes and asked to explain them.\nSarcasm Recognition: It had to determine whether a statement was sarcastic or serious.\nHumor Generation: The LLM was asked to create humorous responses to everyday situations.\n### Results and Observations\n#### Joke Interpretation\n\nThe LLM generally did well at explaining straightforward jokes but sometimes struggled with more nuanced humor.\n\nExample:\n\nPrompt: “Why don’t skeletons fight each other? Because they don’t have the guts.”\nResponse: “This joke is a play on words. ‘Guts’ refers both to courage and internal organs, which skeletons lack.”\nAnalysis: The explanation is technically correct, but it lacks the flair of someone who truly understands humor.\n\n#### Sarcasm Recognition\n\nSarcasm is tricky even for humans, so it wasn’t surprising that the LLM sometimes missed the mark.\n\nExample:\n\nPrompt: “Oh great, another Monday. Just what I needed.”\nResponse: “This statement expresses enthusiasm about Monday.”\nAnalysis: The model took the phrase literally and missed the sarcastic intent.\n\nHowever, when given additional context, it performed better:\n\nPrompt: “In response to a friend complaining about work: ‘Oh great, another Monday. Just what I needed.’ Is this sarcastic?”\nResponse: “Yes, this is likely sarcasm, as the speaker does not actually seem excited about Monday.”\nAnalysis: The extra context helped the model recognize the intended tone.\n\n#### Humor Generation\n\nWhen asked to generate jokes or witty responses, the LLM often defaulted to simple wordplay or cliché humor.\n\nExample:\n\nPrompt: “Tell me a joke about coffee.”\nResponse: “Why did the coffee file a police report? It got mugged!”\nAnalysis: While the joke is structurally sound, it feels generic and lacks originality.\n\n### Conclusion\n\nLLMs have a decent grasp of humor, particularly when it comes to recognizing simple jokes and basic wordplay. However, they struggle with sarcasm and generating humor that feels natural and spontaneous. While AI can provide humorous content, it still lacks the deeper understanding and wit that make human humor so engaging."
+    "objectID": "posts/004_Fourth_Post/index04.html#introduction",
+    "href": "posts/004_Fourth_Post/index04.html#introduction",
+    "title": "Testing LLMs: Can They Understand Emojis?",
+    "section": "Introduction",
+    "text": "Introduction\nEmojis are a huge part of digital communication. People use them to show tone, emotion, sarcasm, or even replace whole words. But can LLMs actually understand what emojis mean in context — or do they just treat them like random symbols?\nI wanted to find out whether GPT-4 could interpret emojis the way people do. Could it tell when someone was joking, sad, or flirting — just from a few emoji cues?"
+  },
+  {
+    "objectID": "posts/004_Fourth_Post/index04.html#experiment-prompting-with-emojis",
+    "href": "posts/004_Fourth_Post/index04.html#experiment-prompting-with-emojis",
+    "title": "Testing LLMs: Can They Understand Emojis?",
+    "section": "Experiment: Prompting with Emojis",
+    "text": "Experiment: Prompting with Emojis\nI gave GPT-4 a few short prompts made up mostly of emojis. Then I asked it to explain what the message meant or respond appropriately."
+  },
+  {
+    "objectID": "posts/004_Fourth_Post/index04.html#prompt-1-i-just-failed-my-exam",
+    "href": "posts/004_Fourth_Post/index04.html#prompt-1-i-just-failed-my-exam",
+    "title": "Testing LLMs: Can They Understand Emojis?",
+    "section": "Prompt 1: “I just failed my exam 😭📉🍫”",
+    "text": "Prompt 1: “I just failed my exam 😭📉🍫”\nResponse:\n“It sounds like you’re really upset about failing your exam. Maybe you’re planning to eat some chocolate to feel better. That’s totally understandable. Be kind to yourself — one bad grade doesn’t define you.”\nAnalysis:\nThe model correctly picked up on the meaning of the crying face, a drop in performance, and comfort food. It didn’t just read the emojis literally — it used them to understand tone and emotion."
+  },
+  {
+    "objectID": "posts/004_Fourth_Post/index04.html#prompt-2-cant-wait-for-the-weekend",
+    "href": "posts/004_Fourth_Post/index04.html#prompt-2-cant-wait-for-the-weekend",
+    "title": "Testing LLMs: Can They Understand Emojis?",
+    "section": "Prompt 2: “Can’t wait for the weekend 😎🌴🍹”",
+    "text": "Prompt 2: “Can’t wait for the weekend 😎🌴🍹”\nResponse:\n“Looks like you’re in vacation mode! Hope you have a relaxing weekend, maybe by the beach with a nice drink.”\nAnalysis:\nThis was a good read. The model understood the excitement, the chill vibe, and even the tropical theme. It didn’t confuse the emojis or miss the casual tone."
+  },
+  {
+    "objectID": "posts/004_Fourth_Post/index04.html#prompt-3-sure",
+    "href": "posts/004_Fourth_Post/index04.html#prompt-3-sure",
+    "title": "Testing LLMs: Can They Understand Emojis?",
+    "section": "Prompt 3: “Sure 😒”",
+    "text": "Prompt 3: “Sure 😒”\nResponse:\n“This seems like it might be sarcastic or annoyed. If that’s not the case, could you clarify what you meant?”\nAnalysis:\nThe model caught the shift in tone caused by the emoji. It recognized that even a neutral word like “Sure” can become passive-aggressive with the right emoji. This showed emotional and social awareness."
+  },
+  {
+    "objectID": "posts/004_Fourth_Post/index04.html#prompt-4",
+    "href": "posts/004_Fourth_Post/index04.html#prompt-4",
+    "title": "Testing LLMs: Can They Understand Emojis?",
+    "section": "Prompt 4: “🔥💯🙌”",
+    "text": "Prompt 4: “🔥💯🙌”\nResponse:\n“This usually means something is really impressive, exciting, or worth celebrating. It’s often used to hype someone up.”\nAnalysis:\nGPT-4 correctly decoded this emoji trio as internet praise. It responded without needing more context, showing it’s familiar with emoji slang and online culture."
+  },
+  {
+    "objectID": "posts/004_Fourth_Post/index04.html#conclusion",
+    "href": "posts/004_Fourth_Post/index04.html#conclusion",
+    "title": "Testing LLMs: Can They Understand Emojis?",
+    "section": "Conclusion",
+    "text": "Conclusion\nLLMs can understand emojis surprisingly well, especially when they’re used in everyday ways. GPT-4 shows it can interpret emotion, sarcasm, and tone when emojis are part of a message. While it doesn’t “feel” anything, it has seen enough human conversations to know how emojis work in context. So yes — your AI assistant gets the 😭, the 😎, and even the 💯."
   },
   {
     "objectID": "posts/001_First_Post /index.html",
@@ -98,11 +140,46 @@
     "text": "Introduction\nEthical dilemmas are some of the most complex challenges in decision-making. They require balancing moral principles, weighing potential consequences, and often navigating gray areas where there isn’t a clear right or wrong answer. While Large Language Models (LLMs) excel at processing information and generating responses, can they truly engage with ethical reasoning? Let’s explore how well they handle moral dilemmas.\n\nExperiment: Testing Ethical Decision-Making\nTo evaluate an LLM’s ability to process ethical dilemmas, I tested it in three ways:\n\nClassic Thought Experiments: Presenting well-known ethical problems like the trolley problem.\nContext-Based Ethics: Providing real-world moral dilemmas and analyzing the model’s reasoning.\nPersonal vs. Societal Ethics: Comparing individual moral choices against broader ethical frameworks.\n### Results and Observations\n#### Classic Thought Experiments\nThe LLM responded with structured reasoning but often avoided taking a definitive stance.\nExample:\n\nPrompt: “You see a runaway trolley heading toward five people on the tracks. You can pull a lever to divert it, but it will hit one person instead. What do you do?”\nResponse: “This is a well-known ethical dilemma. Some argue that pulling the lever is justified based on utilitarianism (minimizing harm), while others believe actively making a choice to harm someone is morally wrong. Ultimately, the decision depends on one’s ethical framework.”\nAnalysis: The response provides a fair overview but avoids a clear choice, likely due to the model’s programming to remain neutral.\n\n#### Context-Based Ethics\nWhen given real-world scenarios, the LLM offered thoughtful responses but lacked deep contextual awareness.\nExample:\n\nPrompt: “A friend confesses they cheated on an important exam. If you report them, they might lose their scholarship. What do you do?”\nResponse: “This situation presents a conflict between honesty and loyalty. Reporting them upholds academic integrity but could have serious consequences for your friend. Some may choose to encourage them to admit their mistake, while others might remain silent to protect their friend’s future.”\nAnalysis: The model outlines the dilemma well but doesn’t go beyond surface-level ethical reasoning.\n\n#### Personal vs. Societal Ethics\nThe LLM recognized differences between individual and societal moral frameworks but sometimes overgeneralized.\nExample:\n\nPrompt: “Is it ever acceptable to lie?”\nResponse: “Lying is generally considered unethical, but there are situations where it might be justified, such as lying to protect someone from harm. The acceptability of lying depends on the context and ethical perspective—utilitarianism might justify it if it prevents greater harm, while deontological ethics might reject it outright.”\nAnalysis: The model captures different perspectives but doesn’t demonstrate nuanced moral judgment.\n\n### Conclusion\nLLMs can engage with ethical dilemmas by outlining different perspectives and logical arguments. However, they struggle with providing nuanced moral reasoning and often default to neutrality. While useful for exploring ethical debates, their limitations highlight the importance of human judgment in complex decision-making."
   },
   {
-    "objectID": "posts/003_Third_Post /index03.html",
-    "href": "posts/003_Third_Post /index03.html",
-    "title": "Testing LLMs: Can They Really Recognize and Generate Sarcasm?",
-    "section": "",
-    "text": "Introduction: &gt;Understanding sarcasm is one of the toughest challenges in language comprehension—even for humans. It relies on tone, context, and sometimes a shared sense of humor. So, if even people struggle to detect it sometimes, how well can Large Language Models (LLMs) pick up on sarcasm?I decided to put an LLM to the test, examining its ability to detect, interpret, and even generate sarcasm.\nTo see how well an LLM handles sarcasm, I ran three different experiments:\n\nSarcasm Detection – Can the model recognize when a statement is sarcastic?\nContextual Understanding – Does it correctly interpret sarcasm when given ambiguous sentences?\nSarcasm Generation – Can it create sarcastic responses that sound human-like?\n\n\nResults & Observations\n\n\n\nSarcasm Detection: Hit or Miss When asked directly whether a sentence was sarcastic, the LLM did okay—but not perfectly.\n\n\n✅ Success Example:\n\n\nPrompt: “Is this sarcastic? ‘Oh great, another Monday. Just what I needed.’” Response: “Yes, this statement is sarcastic as it expresses dissatisfaction rather than genuine excitement.” This was a solid response! The model correctly identified sarcasm.\n\n\n❌ Failure Example:\n\n\nPrompt: “Wow, I love standing in long lines at the DMV.” Response: “This statement expresses enthusiasm for waiting in line.” Not quite. The model took the sentence at face value and missed the sarcasm entirely.\n\n\n\nContextual Understanding: The Struggle is Real Things got trickier when sarcasm was more subtle or lacked context.\n\n\n\n❌ Example of Misinterpretation:\n\n\nSentence: “Oh sure, I just LOVE getting stuck in traffic for hours.” LLM’s interpretation: “This sentence expresses enjoyment of traffic.” Yikes. Without any surrounding context, the model assumed the speaker genuinely enjoys traffic.\n\n\n✅ Improved with Context:\n\n\nPrompt: “In a discussion about daily frustrations, a person says: ‘Oh sure, I just LOVE getting stuck in traffic for hours.’ Is this sarcastic?” Response: “Yes, this is sarcasm, as the speaker is likely frustrated rather than genuinely pleased.” When given additional context, the model performed much better. So, while it can detect sarcasm, it often needs a little extra help.\n\n&gt;3. **Sarcasm Generation:** When asked to generate sarcastic responses, the LLM could produce them but often in a straightforward way, lacking human-like wit.\n&gt;   - Example:\n&gt;     - **Prompt:** \"Respond sarcastically to 'I just failed my exam.'\"\n&gt;     - **Response:** \"Oh wow, you must be so proud of yourself!\" ✅ (Acceptable but generic sarcasm)\n&gt;     - **Prompt:** \"Generate a sarcastic response to 'I locked myself out of my house.'\"\n&gt;     - **Response:** \"Oh, what a brilliant way to start the day!\" ✅ (Appropriate but lacks uniqueness)"
+    "objectID": "posts/003_Third_Post /index03.html#introduction",
+    "href": "posts/003_Third_Post /index03.html#introduction",
+    "title": "Testing LLMs: Can They Write Appropriate and Funny Jokes?",
+    "section": "Introduction",
+    "text": "Introduction\nHumor is tricky. What’s funny to one person might be awkward or offensive to another. Writing a good joke means knowing your audience, reading the room, and understanding timing. I wanted to see how well LLMs like GPT-4 could tell jokes that are both appropriate and actually funny. Could it make someone laugh without crossing a line?"
+  },
+  {
+    "objectID": "posts/003_Third_Post /index03.html#experiment-prompting-for-jokes",
+    "href": "posts/003_Third_Post /index03.html#experiment-prompting-for-jokes",
+    "title": "Testing LLMs: Can They Write Appropriate and Funny Jokes?",
+    "section": "Experiment: Prompting for Jokes",
+    "text": "Experiment: Prompting for Jokes\nI tested the model with three kinds of prompts:\n\n“Tell me a joke a kid would laugh at.”\n“Tell me a clever joke that’s safe for work.”\n“Tell me a joke for a college student that isn’t cringey.”"
+  },
+  {
+    "objectID": "posts/003_Third_Post /index03.html#prompt-1-tell-me-a-joke-a-kid-would-laugh-at.",
+    "href": "posts/003_Third_Post /index03.html#prompt-1-tell-me-a-joke-a-kid-would-laugh-at.",
+    "title": "Testing LLMs: Can They Write Appropriate and Funny Jokes?",
+    "section": "Prompt 1: “Tell me a joke a kid would laugh at.”",
+    "text": "Prompt 1: “Tell me a joke a kid would laugh at.”\nResponse:\n“What did one wall say to the other wall?\nI’ll meet you at the corner.”\nAnalysis:\nThis joke is simple, harmless, and plays with basic word logic. It’s the kind of thing you’d hear on a popsicle stick, which is probably the right level for kids. It didn’t try to be edgy or ironic, which was good."
+  },
+  {
+    "objectID": "posts/003_Third_Post /index03.html#prompt-2-tell-me-a-clever-joke-thats-safe-for-work.",
+    "href": "posts/003_Third_Post /index03.html#prompt-2-tell-me-a-clever-joke-thats-safe-for-work.",
+    "title": "Testing LLMs: Can They Write Appropriate and Funny Jokes?",
+    "section": "Prompt 2: “Tell me a clever joke that’s safe for work.”",
+    "text": "Prompt 2: “Tell me a clever joke that’s safe for work.”\nResponse:\n“Why don’t scientists trust atoms?\nBecause they make up everything.”\nAnalysis:\nThis is a classic science pun, but it still works. It’s safe, clean, and shows a little cleverness. It’s also short, which helps with delivery. While not original, the model’s choice was on target for a workplace context."
+  },
+  {
+    "objectID": "posts/003_Third_Post /index03.html#prompt-3-tell-me-a-joke-for-a-college-student-that-isnt-cringey.",
+    "href": "posts/003_Third_Post /index03.html#prompt-3-tell-me-a-joke-for-a-college-student-that-isnt-cringey.",
+    "title": "Testing LLMs: Can They Write Appropriate and Funny Jokes?",
+    "section": "Prompt 3: “Tell me a joke for a college student that isn’t cringey.”",
+    "text": "Prompt 3: “Tell me a joke for a college student that isn’t cringey.”\nResponse:\n“Why did the student eat their homework?\nBecause the professor said it was a piece of cake.”\nAnalysis:\nIt leans a little corny, but it still relates to student life. It didn’t try too hard to sound young or internet-y, which helped it avoid sounding forced. If anything, it felt more like something you’d hear in a student newspaper than on TikTok."
+  },
+  {
+    "objectID": "posts/003_Third_Post /index03.html#conclusion",
+    "href": "posts/003_Third_Post /index03.html#conclusion",
+    "title": "Testing LLMs: Can They Write Appropriate and Funny Jokes?",
+    "section": "Conclusion",
+    "text": "Conclusion\nGPT-4 can write safe, audience-specific jokes — as long as you’re clear in your prompt. It knows what kind of humor fits each setting, and it avoids anything offensive. That said, it tends to lean on familiar material. The jokes are rarely original, but they’re rarely inappropriate either. So if you’re looking for light laughs that won’t get you in trouble, an LLM can deliver. Just don’t expect stand-up level comedy… yet."
   },
   {
     "objectID": "about.html",

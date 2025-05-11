@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Hellen Jin">
-<meta name="dcterms.date" content="2024-02-13">
-<meta name="description" content="A blog about the experiments I will be doing with the LLM to see if they can undertsand subtle humor like humans do">
+<meta name="dcterms.date" content="2025-02-13">
+<meta name="description" content="A blog exploring whether LLMs can interpret and respond to emojis the way humans do.">
 
-<title>Testing LLMs: Do LLMs Understand Subtle Humor? – Hellen and LLMs</title>
+<title>Testing LLMs: Can They Understand Emojis? – Hellen and LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,16 +117,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Testing LLMs: Do LLMs Understand Subtle Humor?</h1>
+      <h1 class="title">Testing LLMs: Can They Understand Emojis?</h1>
                   <div>
         <div class="description">
-          A blog about the experiments I will be doing with the LLM to see if they can undertsand subtle humor like humans do
+          A blog exploring whether LLMs can interpret and respond to emojis the way humans do.
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">LLMs</div>
-                <div class="quarto-category">Figurative Language</div>
-                <div class="quarto-category">Human interactions</div>
+                <div class="quarto-category">Communication</div>
+                <div class="quarto-category">Language</div>
               </div>
                   </div>
   </div>
@@ -144,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 13, 2024</p>
+        <p class="date">February 13, 2025</p>
       </div>
     </div>
     
@@ -164,63 +164,46 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="humor01.png" width="50%"></p>
-<section id="introduction" class="level3">
-<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<blockquote class="blockquote">
-<p>Humor is one of the most complex aspects of human communication. It relies on cultural context, tone, wordplay, and sometimes even shared experiences. So how well do Large Language Models (LLMs) grasp humor? Can they recognize jokes, understand sarcasm, and even generate witty responses? This post explores how LLMs perform when faced with humor in different contexts.</p>
-</blockquote>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Emojis are a huge part of digital communication. People use them to show tone, emotion, sarcasm, or even replace whole words. But can LLMs actually understand what emojis mean in context — or do they just treat them like random symbols?</p>
+<p>I wanted to find out whether GPT-4 could interpret emojis the way people do. Could it tell when someone was joking, sad, or flirting — just from a few emoji cues?</p>
 </section>
-<section id="experiment-putting-llms-to-the-test" class="level3">
-<h3 class="anchored" data-anchor-id="experiment-putting-llms-to-the-test">Experiment: Putting LLMs to the Test</h3>
-<blockquote class="blockquote">
-<p>To analyze how well an LLM handles humor, I used three different approaches:</p>
-</blockquote>
-<ul>
-<li><p><strong>Joke Interpretation:</strong> The model was given classic jokes and asked to explain them.</p></li>
-<li><p><strong>Sarcasm Recognition:</strong> It had to determine whether a statement was sarcastic or serious.</p></li>
-<li><p><strong>Humor Generation:</strong> The LLM was asked to create humorous responses to everyday situations.</p>
-<p>### Results and Observations</p>
-<p>#### Joke Interpretation</p>
-<blockquote class="blockquote">
-<p>The LLM generally did well at explaining straightforward jokes but sometimes struggled with more nuanced humor.</p>
-</blockquote>
-<p><strong>Example:</strong></p>
-<ul>
-<li><strong>Prompt:</strong> “Why don’t skeletons fight each other? Because they don’t have the guts.”</li>
-<li><strong>Response:</strong> “This joke is a play on words. ‘Guts’ refers both to courage and internal organs, which skeletons lack.”</li>
-<li><strong>Analysis:</strong> The explanation is technically correct, but it lacks the flair of someone who truly understands humor.</li>
-</ul>
-<p>#### Sarcasm Recognition</p>
-<blockquote class="blockquote">
-<p>Sarcasm is tricky even for humans, so it wasn’t surprising that the LLM sometimes missed the mark.</p>
-</blockquote>
-<p><strong>Example:</strong></p>
-<ul>
-<li><strong>Prompt:</strong> “Oh great, another Monday. Just what I needed.”</li>
-<li><strong>Response:</strong> “This statement expresses enthusiasm about Monday.”</li>
-<li><strong>Analysis:</strong> The model took the phrase literally and missed the sarcastic intent.</li>
-</ul>
-<p>However, when given additional context, it performed better:</p>
-<ul>
-<li><strong>Prompt:</strong> “In response to a friend complaining about work: ‘Oh great, another Monday. Just what I needed.’ Is this sarcastic?”</li>
-<li><strong>Response:</strong> “Yes, this is likely sarcasm, as the speaker does not actually seem excited about Monday.”</li>
-<li><strong>Analysis:</strong> The extra context helped the model recognize the intended tone.</li>
-</ul>
-<p>#### Humor Generation</p>
-<blockquote class="blockquote">
-<p>When asked to generate jokes or witty responses, the LLM often defaulted to simple wordplay or cliché humor.</p>
-</blockquote>
-<p><strong>Example:</strong></p>
-<ul>
-<li><strong>Prompt:</strong> “Tell me a joke about coffee.”</li>
-<li><strong>Response:</strong> “Why did the coffee file a police report? It got mugged!”</li>
-<li><strong>Analysis:</strong> While the joke is structurally sound, it feels generic and lacks originality.</li>
-</ul>
-<p>### Conclusion</p>
-<blockquote class="blockquote">
-<p>LLMs have a decent grasp of humor, particularly when it comes to recognizing simple jokes and basic wordplay. However, they struggle with sarcasm and generating humor that feels natural and spontaneous. While AI can provide humorous content, it still lacks the deeper understanding and wit that make human humor so engaging.</p>
-</blockquote></li>
-</ul>
+<section id="experiment-prompting-with-emojis" class="level2">
+<h2 class="anchored" data-anchor-id="experiment-prompting-with-emojis">Experiment: Prompting with Emojis</h2>
+<p>I gave GPT-4 a few short prompts made up mostly of emojis. Then I asked it to explain what the message meant or respond appropriately.</p>
+</section>
+<section id="prompt-1-i-just-failed-my-exam" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-1-i-just-failed-my-exam">Prompt 1: “I just failed my exam 😭📉🍫”</h2>
+<p><strong>Response:</strong><br>
+“It sounds like you’re really upset about failing your exam. Maybe you’re planning to eat some chocolate to feel better. That’s totally understandable. Be kind to yourself — one bad grade doesn’t define you.”</p>
+<p><strong>Analysis:</strong><br>
+The model correctly picked up on the meaning of the crying face, a drop in performance, and comfort food. It didn’t just read the emojis literally — it used them to understand tone and emotion.</p>
+</section>
+<section id="prompt-2-cant-wait-for-the-weekend" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-2-cant-wait-for-the-weekend">Prompt 2: “Can’t wait for the weekend 😎🌴🍹”</h2>
+<p><strong>Response:</strong><br>
+“Looks like you’re in vacation mode! Hope you have a relaxing weekend, maybe by the beach with a nice drink.”</p>
+<p><strong>Analysis:</strong><br>
+This was a good read. The model understood the excitement, the chill vibe, and even the tropical theme. It didn’t confuse the emojis or miss the casual tone.</p>
+</section>
+<section id="prompt-3-sure" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-3-sure">Prompt 3: “Sure 😒”</h2>
+<p><strong>Response:</strong><br>
+“This seems like it might be sarcastic or annoyed. If that’s not the case, could you clarify what you meant?”</p>
+<p><strong>Analysis:</strong><br>
+The model caught the shift in tone caused by the emoji. It recognized that even a neutral word like “Sure” can become passive-aggressive with the right emoji. This showed emotional and social awareness.</p>
+</section>
+<section id="prompt-4" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-4">Prompt 4: “🔥💯🙌”</h2>
+<p><strong>Response:</strong><br>
+“This usually means something is really impressive, exciting, or worth celebrating. It’s often used to hype someone up.”</p>
+<p><strong>Analysis:</strong><br>
+GPT-4 correctly decoded this emoji trio as internet praise. It responded without needing more context, showing it’s familiar with emoji slang and online culture.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>LLMs can understand emojis surprisingly well, especially when they’re used in everyday ways. GPT-4 shows it can interpret emotion, sarcasm, and tone when emojis are part of a message. While it doesn’t “feel” anything, it has seen enough human conversations to know how emojis work in context. So yes — your AI assistant gets the 😭, the 😎, and even the 💯.</p>
 
 
 </section>
