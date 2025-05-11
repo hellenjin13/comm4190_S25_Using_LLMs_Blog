@@ -1,43 +1,44 @@
 /* css styles */
-/* Use a modern, clean font across the site */
+/* Base page styling */
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #fdfdfd;
   color: #2c3e50;
-  background-color: #ffffff;
   line-height: 1.6;
+  padding: 1rem;
 }
 
-/* Style for page titles like "Welcome" */
-h1.title, h1 {
-  color: #2c3e50;
-  text-align: center;
-  font-weight: 600;
-  font-size: 2.2rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-/* Style for paragraph text */
-p {
-  font-size: 1rem;
-  color: #444;
-}
-
-/* Optional: box styling for highlights or info blocks */
-.highlight {
-  background-color: #f4f4f4;
-  border-left: 4px solid #3498db;
-  padding: 12px;
-  margin: 20px 0;
-  border-radius: 4px;
-}
-
-/* Style links to match site aesthetic */
-a {
+/* Header (title, blog headings) */
+h1, h2, h3 {
   color: #1a73e8;
+  font-weight: 600;
+}
+
+/* Highlight box */
+.highlight {
+  background-color: #e8f0fe;
+  border-left: 5px solid #1a73e8;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+/* Link styling */
+a {
+  color: #d63384;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Footer */
+.quarto-page-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e0e0e0;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
 }
