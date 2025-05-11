@@ -9,9 +9,9 @@ format:
 # About This Blog
 
 <div class="highlight">
-This blog explores what large language models can do, and where they fall short. Each post starts with a simple question, like can an LLM write a horoscope or can it act like a gym buddy, and then tests the model's response in real time.
+This blog explores what large language models can do — and where they fall short. Each post starts with a simple question, like can an LLM write a horoscope or can it act like a gym buddy, and then tests the model's response in real time.
 </div>
 
 I document how GPT4 handles everything from fitness routines to political questions, horoscopes to fashion aesthetics. The posts are written with clarity and curiosity, offering a casual but thoughtful look at LLM behavior in everyday life.
 
-Whether you're into AI, digital culture, or just here for the vibe, welcome.
+Whether you're into AI, digital culture, or just here for the vibe — welcome.
