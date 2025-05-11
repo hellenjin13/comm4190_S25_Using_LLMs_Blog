@@ -8,9 +8,9 @@
 
 <meta name="author" content="Hellen Jin">
 <meta name="dcterms.date" content="2024-02-04">
-<meta name="description" content="A blog about the experiments I will be doing with the LLM to see if they can undertsand idioms like humans do">
+<meta name="description" content="A blog testing whether LLMs like GPT-4 can recommend personalized, meaningful vacation ideas based on vague or emotional prompts.">
 
-<title>Testing LLMs: Can They Really Understand Idioms? – Hellen and LLMs</title>
+<title>Testing LLMs: Can They Plan the Perfect Vacation? – Hellen and LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,15 +117,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Testing LLMs: Can They Really Understand Idioms?</h1>
+      <h1 class="title">Testing LLMs: Can They Plan the Perfect Vacation?</h1>
                   <div>
         <div class="description">
-          A blog about the experiments I will be doing with the LLM to see if they can undertsand idioms like humans do
+          A blog testing whether LLMs like GPT-4 can recommend personalized, meaningful vacation ideas based on vague or emotional prompts.
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">LLMs</div>
-                <div class="quarto-category">Figurative Language</div>
+                <div class="quarto-category">Travel</div>
+                <div class="quarto-category">Personalization</div>
               </div>
                   </div>
   </div>
@@ -162,54 +163,57 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><strong>Idioms!!</strong></p>
+<p><strong>Vacation!!</strong></p>
 <p><img src="idiom.png" width="50%"></p>
-<section id="testing-llms-can-they-really-understand-idiom" class="level2">
-<h2 class="anchored" data-anchor-id="testing-llms-can-they-really-understand-idiom">Testing LLMs: Can They Really Understand Idiom?</h2>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Planning a vacation can be stressful. You want it to feel relaxing, personal, and a good escape — but sometimes you don’t know where to start. That’s where LLMs like GPT-4 claim to help. I wanted to know: <strong>Can a language model actually recommend a vacation that fits my mood or vague request?</strong></p>
+<p>Instead of giving the model strict parameters like “best beaches in July,” I tested it with open-ended, emotional, or loosely defined prompts — the kind a person might say to a friend. I was curious whether the LLM would understand not just logistics, but <em>vibe</em>.</p>
+<hr>
+<section id="experiment-prompting-llms-like-a-human-friend" class="level3">
+<h3 class="anchored" data-anchor-id="experiment-prompting-llms-like-a-human-friend">Experiment: Prompting LLMs Like a Human Friend</h3>
+<p>To test GPT-4’s ability to offer travel ideas, I gave it 3 kinds of prompts:</p>
 <ul>
-<li>Introduction:</li>
+<li><strong>Mood-based:</strong> “I need to clear my head.”</li>
+<li><strong>Personality-based:</strong> “I’m not a beach person. I like bookstores and wine.”</li>
+<li><strong>Budget-based:</strong> “I’m broke but I need a change of scenery.”</li>
 </ul>
-<blockquote class="blockquote">
-<p>Large Language Models (LLMs) have advanced rapidly, demonstrating impressive capabilities in language generation, text summarization, and creative writing. However, one area where they still face challenges is in understanding and using idioms effectively. In this post, we will analyze how LLMs interpret idiomatic expressions, whether they recognize them in different contexts, and how well they use idioms in responses.</p>
-</blockquote>
-<ul>
-<li><p>Experiment: Prompting the LLM with Idioms &gt; To evaluate an LLM’s ability to handle idioms, I tested it using three different types of prompts: &gt;1. Literal vs.&nbsp;Figurative Meaning – Asking the model to define idioms and then use them in a sentence. &gt;2. Contextual Understanding – Providing sentences with idioms and asking the model to interpret their meanings. &gt;3. Creative Application – Asking the model to generate short stories or dialogues incorporating idioms naturally.</p></li>
-<li><p>Results &amp; Observations &gt;1. Literal vs.&nbsp;Figurative Meaning: The LLM performed well in defining common idioms like <em>“kick the bucket”</em> and <em>“burn the midnight oil”</em>. However, it occasionally struggled with less common idioms, providing overly literal definitions. &gt;- Example:</p>
-<ul>
-<li><strong>Prompt:</strong> “What does ‘spill the beans’ mean?”</li>
-<li><strong>Response:</strong> “It means to reveal a secret.” (CORRECT)</li>
-<li><strong>Prompt:</strong> “What does ‘barking up the wrong tree’ mean?”</li>
-<li><strong>Response:</strong> “It means to misunderstand a situation and pursue the wrong course of action.” (CORRECT)</li>
-</ul></li>
-</ul>
-<blockquote class="blockquote">
-<ol start="2" type="1">
-<li><strong>Contextual Understanding:</strong> When idioms were embedded in sentences, the LLM usually understood their meaning correctly. However, in cases where the idiom had multiple possible interpretations, the model sometimes provided a contextually incorrect answer.</li>
-</ol>
-<ul>
-<li>Example:</li>
-<li><strong>Sentence:</strong> “John thought he could get a promotion by befriending the CEO, but he was barking up the wrong tree.”</li>
-<li><strong>LLM’s interpretation:</strong> “John made a mistake in trying to befriend the CEO for a promotion.” (CORRECT)</li>
-<li><strong>Sentence:</strong> “After the argument, Lisa broke the ice with a joke.”</li>
-<li><strong>LLM’s interpretation:</strong> “Lisa shattered something made of ice.” (Misinterpretation)</li>
-</ul>
-</blockquote>
-<blockquote class="blockquote">
-<ol start="3" type="1">
-<li><strong>Creative Application:</strong> When asked to generate a story using idioms naturally, the LLM inserted them but sometimes in an awkward or forced way. This suggests that while the model understands idioms, it may struggle with their nuanced use in organic conversation.</li>
-</ol>
-<ul>
-<li>Example:</li>
-<li><strong>Prompt:</strong> “Write a short story where a detective uses idioms while solving a case.”</li>
-<li><strong>Excerpt:</strong> <em>“Detective Hardy knew time was of the essence. ‘We have to catch the suspect red-handed!’ he said. But his partner was beating around the bush, hesitant to investigate the crime scene. Hardy sighed. ‘Come on, let’s cut to the chase.’”</em></li>
-<li>Verdict: Acceptable but a bit cliché in its use of idioms.</li>
-</ul>
-</blockquote>
-<ul>
-<li>Conclusion &gt;While LLMs have a strong grasp of idiomatic meanings and can recognize idioms in most contexts, their application of idioms in generated text can sometimes feel unnatural. They excel at defining and interpreting idioms but occasionally falter in using them fluidly in storytelling and casual dialogue. Future improvements in contextual learning and training on conversational nuances may help bridge this gap, making AI-generated language even more human-like.</li>
-</ul>
+<hr>
+</section>
+<section id="results-and-observations" class="level3">
+<h3 class="anchored" data-anchor-id="results-and-observations">Results and Observations</h3>
+<section id="prompt-1-i-need-to-clear-my-head." class="level4">
+<h4 class="anchored" data-anchor-id="prompt-1-i-need-to-clear-my-head.">Prompt 1: “I need to clear my head.”</h4>
+<p><strong>Response:</strong><br>
+&gt; “For a peaceful reset, you might enjoy a retreat in Sedona, Arizona with its red rock formations and quiet trails. Or consider a solo trip to Iceland, where the landscapes are dramatic and the population is low. Both offer space to reflect and disconnect.”</p>
+<p><strong>Analysis:</strong><br>
+The model understood this as a need for solitude and recommended locations that are scenic but quiet. It didn’t just list popular cities, which shows some emotional inference. This answer felt human.</p>
+<hr>
+</section>
+<section id="prompt-2-im-not-a-beach-person.-i-like-bookstores-and-wine." class="level4">
+<h4 class="anchored" data-anchor-id="prompt-2-im-not-a-beach-person.-i-like-bookstores-and-wine.">Prompt 2: “I’m not a beach person. I like bookstores and wine.”</h4>
+<p><strong>Response:</strong><br>
+&gt; “You might enjoy a literary escape in Edinburgh, Scotland — known for its historic bookstores, cozy cafes, and whisky tastings. Alternatively, Porto, Portugal offers beautiful libraries and wine tours along the Douro River.”</p>
+<p><strong>Analysis:</strong><br>
+This response showed impressive taste-matching. It avoided beach destinations and matched aesthetic preferences. The answer felt curated, even though the input was short.</p>
+<hr>
+</section>
+<section id="prompt-3-im-broke-but-i-need-a-change-of-scenery." class="level4">
+<h4 class="anchored" data-anchor-id="prompt-3-im-broke-but-i-need-a-change-of-scenery.">Prompt 3: “I’m broke but I need a change of scenery.”</h4>
+<p><strong>Response:</strong><br>
+&gt; “Consider local travel options like taking a train to a nearby town for a weekend getaway. Many cities also have budget hostels and free walking tours. If you’re open to volunteering, platforms like Workaway let you exchange work for lodging around the world.”</p>
+<p><strong>Analysis:</strong><br>
+The model understood the tone — a mix of frustration and desire — and offered ideas that felt realistic and supportive. It didn’t suggest luxury hotels, which shows context awareness.</p>
+<hr>
+</section>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>LLMs can be surprisingly good travel companions — not just for logistics, but for tone, budget, and mood. While they don’t know your full life story, they’re able to reflect back what you express and turn it into thoughtful suggestions. That said, the best results come when you treat the model more like a friend than a search engine.</p>
+<p>As LLMs improve, they may shape how we dream, plan, and reflect on travel — not just where we go, but why we go there.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
