@@ -6,12 +6,27 @@ format:
     css: styles.css
 ---
 
-# About This Blog
+# 👋 Hi, I’m Hellen
 
 <div class="highlight">
-This blog explores what large language models can do — and where they fall short. Each post starts with a simple question, like can an LLM write a horoscope or can it act like a gym buddy, and then tests the model's response in real time.
+This blog is where I test how well language models like GPT4 can imitate, support, and sometimes surprise us. Every few days, I ask a new question — from "Can it act like a gym buddy?" to "Does it understand horoscopes?" — and post the results here.
 </div>
 
-I document how GPT4 handles everything from fitness routines to political questions, horoscopes to fashion aesthetics. The posts are written with clarity and curiosity, offering a casual but thoughtful look at LLM behavior in everyday life.
+## What You’ll Find Here
 
-Whether you're into AI, digital culture, or just here for the vibe — welcome.
+🧠 Honest tests of AI behavior  
+📅 Posts every two days (give or take)  
+🎯 Real prompts, short results, zero fluff  
+🌐 Topics like politics, astrology, mental health, playlists, and gym routines
+
+## Why I’m Doing This
+
+LLMs are changing how we search, write, and think. I wanted to explore what they’re actually capable of — not just in theory, but in practice. No hype. Just hands-on experiments.
+
+## Want to Connect?
+
+- Email: [heljin13@sas.upenn.edu](mailto:heljin13@sas.upenn.edu)  
+- GitHub: [hellenjin13](https://github.com/hellenjin13)  
+- Twitter: [@hellenjin13](https://twitter.com)
+
+Thanks for visiting. Let’s see what the machine can do.
