@@ -2,20 +2,35 @@ project:
   type: website
 
 website:
-  title: "Hellen and LLMs"
+  title: "🧠 Hellen and LLMs"
+  favicon: favicon.ico
   navbar:
+    background: "#f8f9fa"
     right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
+      - text: "About"
+        href: about.qmd
+      - text: "Posts"
+        href: index.qmd
+      - text: "GitHub"
+        icon: github
+        href: https://github.com/hellenjin13
+      - text: "Twitter"
+        icon: twitter
         href: https://twitter.com
+  page-footer:
+    center: "Built with Quarto • Last updated {{< meta date >}}"
+    left: "© 2025 Hellen Jin"
+    right:
+      - icon: envelope
+        text: "Email"
+        href: mailto:heljin13@sas.upenn.edu
+
 format:
   html:
-    theme: cosmo
+    theme: litera
     css: styles.css
+    toc: false
+    code-copy: true
 
 execute:
   freeze: auto
-
-
