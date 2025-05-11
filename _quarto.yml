@@ -4,6 +4,7 @@ project:
 website:
   title: "🧠 Hellen and LLMs"
   favicon: favicon.ico
+
   navbar:
     background: "#f8f9fa"
     right:
@@ -17,12 +18,13 @@ website:
       - text: "Twitter"
         icon: twitter
         href: https://twitter.com
+          
   page-footer:
-    center: "Built with Quarto • Last updated {{< meta date >}}"
     left: "© 2025 Hellen Jin"
+    center: "Built with Quarto • Updated {{< meta date >}}"
     right:
       - icon: envelope
-        text: "Email"
+        text: "heljin13@sas.upenn.edu"
         href: mailto:heljin13@sas.upenn.edu
 
 format:
