@@ -1,8 +1,44 @@
 ---
-title: Hellen's Blog!
+title: "Hellen's Blog"
 image: profile.jpg
 about:
   template: jolla
+  title: "Welcome"
+  style: "font-family: 'Helvetica Neue', sans-serif; color: #2c3e50;"
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
 ---
 
-About this blog
+<style>
+h1 {
+  color: #2c3e50;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+p {
+  font-family: 'Georgia', serif;
+  color: #555;
+  line-height: 1.6;
+}
+.highlight {
+  background-color: #f4f4f4;
+  border-left: 4px solid #3498db;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+</style>
+
+# About This Blog
+
+<div class="highlight">
+This blog is a project where I test what large language models can do. I explore topics like AI bias, fitness coaching, horoscope writing, music suggestions, and more — all through casual but thoughtful experiments with GPT4.
+</div>
+
+I post from pop culture and mental health to daily life questions and creative prompts. Each post asks a simple question and records how the model responds — the good, the helpful, and the weird.
+
+Thanks for reading.
