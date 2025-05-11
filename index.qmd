@@ -1,5 +1,5 @@
 ---
-title: My LLM Testings!
+title: My LLMs Testing!
 listing:
   contents: posts
   sort: date desc
