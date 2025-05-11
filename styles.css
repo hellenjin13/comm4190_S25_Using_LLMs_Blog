@@ -1,1 +1,43 @@
 /* css styles */
+/* Use a modern, clean font across the site */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #2c3e50;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Style for page titles like "Welcome" */
+h1.title, h1 {
+  color: #2c3e50;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Style for paragraph text */
+p {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Optional: box styling for highlights or info blocks */
+.highlight {
+  background-color: #f4f4f4;
+  border-left: 4px solid #3498db;
+  padding: 12px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+/* Style links to match site aesthetic */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
