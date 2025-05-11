@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Hellen Jin">
-<meta name="dcterms.date" content="2024-02-06">
-<meta name="description" content="A blog dedicated to explore how well LLM can be at marketing!!">
+<meta name="dcterms.date" content="2024-03-03">
+<meta name="description" content="A blog exploring whether LLMs can understand personal shopping needs and recommend the best places to go — from luxury malls to hidden local gems.">
 
-<title>Can LLMs Generate Effective Product Names and Branding? – Hellen and LLMs</title>
+<title>Testing LLMs: Can They Recommend the Best Place to Shop? – Hellen and LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,16 +117,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Can LLMs Generate Effective Product Names and Branding?</h1>
+      <h1 class="title">Testing LLMs: Can They Recommend the Best Place to Shop?</h1>
                   <div>
         <div class="description">
-          A blog dedicated to explore how well LLM can be at marketing!!
+          A blog exploring whether LLMs can understand personal shopping needs and recommend the best places to go — from luxury malls to hidden local gems.
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">LLMs</div>
-                <div class="quarto-category">Marketing</div>
-                <div class="quarto-category">Creativity</div>
+                <div class="quarto-category">Travel</div>
+                <div class="quarto-category">Shopping</div>
               </div>
                   </div>
   </div>
@@ -144,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 6, 2024</p>
+        <p class="date">March 3, 2024</p>
       </div>
     </div>
     
@@ -163,54 +163,47 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<p><img src="brands.png" width="50%"></p>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<blockquote class="blockquote">
-<p>Businesses are increasingly turning to AI for creative marketing solutions, from product names to full branding strategies. But how effective are Large Language Models (LLMs) at developing catchy, marketable names? This post explores how well LLMs perform when tasked with product naming and branding.</p>
-</blockquote>
-<section id="experiment-evaluating-llm-generated-product-names" class="level3">
-<h3 class="anchored" data-anchor-id="experiment-evaluating-llm-generated-product-names">Experiment: Evaluating LLM-Generated Product Names</h3>
-<p>To assess an LLM’s ability to create compelling product names, I tested it under three conditions:</p>
-<ul>
-<li><p><strong>General Product Naming:</strong> The model was asked to generate names for broad product categories like beverages and tech gadgets.</p>
-<ul>
-<li><strong>Branding Consistency:</strong> Given a brand identity, the model needed to create names that aligned with a specific theme.</li>
-<li><strong>Target Audience Appeal:</strong> The generated names were evaluated based on how well they fit the intended customer demographic.</li>
-</ul>
-<p>### Results and Observations</p>
-<p>#### General Product Naming</p>
-<p>When asked to generate product names, the LLM produced creative and relevant suggestions.</p>
-<p><strong>Example:</strong></p>
-<ul>
-<li><strong>Prompt:</strong> “Suggest five names for an energy drink.”</li>
-<li><strong>Response:</strong> Power Surge, Ignite, ZestBoost, ThunderFuel, RevitaRush.</li>
-<li><strong>Analysis:</strong> The names are energetic, engaging, and suitable for the category.</li>
-</ul>
-<p>#### Branding Consistency</p>
-<p>The LLM followed branding guidelines well but sometimes produced names that felt generic.</p>
-<p><strong>Example:</strong></p>
-<ul>
-<li><strong>Prompt:</strong> “Generate names for a luxury skincare line focusing on natural ingredients.”</li>
-<li><strong>Response:</strong> PureGlow, NatureLuxe, Verdant Essence, Botanique, Serenity Skincare.</li>
-<li><strong>Analysis:</strong> These names fit the high-end skincare market, though some lack uniqueness.</li>
-</ul>
-<p>#### Target Audience Appeal</p>
-<p>The LLM adapted its naming approach based on the target audience, but some suggestions were predictable.</p>
-<p><strong>Example:</strong></p>
-<ul>
-<li><strong>Prompt:</strong> “Come up with a name for a Gen Z-focused tech gadget.”</li>
-<li><strong>Response:</strong> HypeSync.</li>
-<li><strong>Prompt:</strong> “Suggest a name for a senior-friendly smart home assistant.”</li>
-<li><strong>Response:</strong> SmartEase.</li>
-<li><strong>Analysis:</strong> The names align with their respective audiences, though they could be more distinctive.</li>
-</ul>
-<p>### Conclusion</p>
-<p>LLMs are useful for brainstorming product names, providing creative and contextually appropriate options. However, their ability to develop truly unique and memorable branding still requires human refinement. While AI-generated names can serve as a strong starting point, brands may need to tweak and enhance them for stronger market impact.</p></li>
-</ul>
-<p><img src="brands.png" width="50%"></p>
-
-
+<p>Everyone shops, but we don’t all shop the same way. Some people want designer boutiques. Others look for vintage finds, open-air markets, or budget deals. I wanted to test how well an LLM could help me pick the best place to shop — not just in general, but based on vibe, budget, and style. Could it tailor its answer like a friend would?</p>
+<p>Instead of asking for a list of malls, I gave GPT-4 more open-ended prompts, the way you might text a friend before a trip.</p>
 </section>
+<section id="experiment-shopping-prompts-with-style" class="level2">
+<h2 class="anchored" data-anchor-id="experiment-shopping-prompts-with-style">Experiment: Shopping Prompts with Style</h2>
+<p>I tested three different prompts:</p>
+<ul>
+<li>“I want to shop like a rich tourist.”</li>
+<li>“I like markets, thrift stores, and handmade stuff.”</li>
+<li>“I need clothes but I’m broke and in a new city.”</li>
+</ul>
+</section>
+<section id="prompt-1-i-want-to-shop-like-a-rich-tourist." class="level2">
+<h2 class="anchored" data-anchor-id="prompt-1-i-want-to-shop-like-a-rich-tourist.">Prompt 1: “I want to shop like a rich tourist.”</h2>
+<p><strong>Response:</strong><br>
+“If you’re looking for high-end shopping, consider the Ginza district in Tokyo, which offers luxury flagship stores and department stores like Mitsukoshi and Wako. Paris’s Avenue Montaigne and Dubai Mall are also top-tier destinations for designer shopping.”</p>
+<p><strong>Analysis:</strong><br>
+The model responded with globally known luxury hubs. It understood the tone — aspirational and indulgent — and suggested locations that reflect wealth and exclusivity. It was helpful, but safe. A little more personalization (like hidden designer consignment spots) would make it feel more curated.</p>
+</section>
+<section id="prompt-2-i-like-markets-thrift-stores-and-handmade-stuff." class="level2">
+<h2 class="anchored" data-anchor-id="prompt-2-i-like-markets-thrift-stores-and-handmade-stuff.">Prompt 2: “I like markets, thrift stores, and handmade stuff.”</h2>
+<p><strong>Response:</strong><br>
+“You might enjoy shopping in Chiang Mai’s Sunday Walking Street Market in Thailand or browsing secondhand stores in Copenhagen’s Nørrebro district. For handmade crafts, Oaxaca in Mexico has a rich tradition of artisan goods including pottery, textiles, and jewelry.”</p>
+<p><strong>Analysis:</strong><br>
+This answer had real personality. It listed places that fit a traveler looking for creativity and authenticity, not just price. GPT-4 picked up on aesthetic preferences and offered culturally relevant locations that weren’t on every travel blog’s front page.</p>
+</section>
+<section id="prompt-3-i-need-clothes-but-im-broke-and-in-a-new-city." class="level2">
+<h2 class="anchored" data-anchor-id="prompt-3-i-need-clothes-but-im-broke-and-in-a-new-city.">Prompt 3: “I need clothes but I’m broke and in a new city.”</h2>
+<p><strong>Response:</strong><br>
+“Look for chain thrift stores like Goodwill or Value Village if you’re in the US or Canada. In many cities, local Facebook groups or apps like Vinted and Depop are popular for secondhand fashion. Some student areas have budget clothing markets or swap events.”</p>
+<p><strong>Analysis:</strong><br>
+This answer was practical and showed awareness of how real people solve everyday problems. It didn’t assume the user was traveling and gave ideas that apply locally and online. It also subtly accounted for cost, context, and effort — a sign that GPT-4 can interpret tone well.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>When it comes to shopping, GPT-4 can do more than suggest a famous mall. It tailors advice based on tone, budget, and personality — if the prompt is clear. While it lacks the personal stories or insider tips a friend might share, its suggestions feel thoughtful and globally aware. For planning your next retail adventure, it’s not a bad companion.</p>
+
+
 </section>
 
 </main> <!-- /main -->
